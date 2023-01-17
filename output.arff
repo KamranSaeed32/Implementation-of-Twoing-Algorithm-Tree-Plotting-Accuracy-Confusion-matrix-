@@ -1,0 +1,20 @@
+%
+% Comments go after a '%' sign.
+%
+%
+% Relation: World Cup 2014
+%
+%
+% Attributes: 2     Instances: 3
+%
+%
+
+@relation World Cup 2014
+
+@attribute income {normal,huge,less}
+@attribute satisfied {yes,no}
+
+@data
+normal,yes
+huge,no
+less,no

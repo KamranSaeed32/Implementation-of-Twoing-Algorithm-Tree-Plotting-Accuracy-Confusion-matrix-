@@ -1,0 +1,19 @@
+@relation twoing
+
+@AttRiBUtE Income {normal,huge,less}
+@AttRiBUtE Eductaion {secondary_school,primary,under_graduate}
+@AttRiBUtE Sector {Information_technology,civil}
+@AttRiBUtE Satisfied {yes,no}
+
+@DAtA
+normal,secondary_school,Information_technology,yes
+huge,primary,Information_technology,yes
+less,primary,civil,yes
+huge,secondary_school,civil,yes
+less,secondary_school,civil,yes
+huge,under_graduate,civil,yes
+less,under_graduate,civil,yes
+huge,secondary_school,Information_technology,no
+less,secondary_school,Information_technology,no
+huge,under_graduate,Information_technology,no
+less,under_graduate,Information_technology,no
